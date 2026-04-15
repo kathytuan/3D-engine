@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void LateUpdate()
     {
         // move the vehicle forward
         transform.Translate(Vector3.forward * Time.deltaTime * speed);
